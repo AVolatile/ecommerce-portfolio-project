@@ -1,0 +1,228 @@
+.membership-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--ink);
+  color: var(--chalk);
+  padding: 80px var(--space);
+  gap: 10%;
+  align-items: center;
+}
+.membership-hero h1 {
+  font-size: clamp(78px, 8vw, 120px);
+  line-height: 0.95;
+  margin: 0 0 25px;
+}
+.membership-hero p:not(.eyebrow) {
+  max-width: 430px;
+  font-size: 13px;
+  color: #c3c6ba;
+}
+.membership-hero .button {
+  background: var(--signal);
+  color: var(--ink);
+  border-color: var(--signal);
+  margin-top: 15px;
+}
+.membership-price {
+  display: block;
+  font-size: 11px;
+  margin-top: 15px;
+  color: #c3c6ba;
+}
+.benefit-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.benefit {
+  border-top: 1px solid var(--line);
+  padding-top: 23px;
+}
+.benefit > span {
+  font-size: 10px;
+  color: var(--orange);
+}
+.benefit h3 {
+  font-size: 25px;
+  margin: 20px 0 16px;
+}
+.benefit p {
+  font-size: 12px;
+  color: var(--muted);
+  max-width: 340px;
+}
+.membership-how {
+  background: var(--paper);
+  padding: 65px var(--space);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10%;
+}
+.membership-how h2 {
+  font-size: 43px;
+  margin-bottom: 20px;
+}
+.membership-how > div > p {
+  font-size: 13px;
+  color: var(--muted);
+}
+.membership-how .button {
+  margin-top: 15px;
+}
+.statement {
+  padding: 90px var(--space);
+  background: var(--signal);
+}
+.statement h2 {
+  font-family: var(--display);
+  font-size: clamp(60px, 8vw, 115px);
+  font-weight: 600;
+  max-width: 1000px;
+  line-height: 0.98;
+}
+.editorial-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9%;
+  align-items: start;
+}
+.editorial-two h2 {
+  margin-bottom: 25px;
+}
+.editorial-two p {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.9;
+}
+.editorial-two img {
+  width: 100%;
+  aspect-ratio: 1.2;
+}
+.article-layout {
+  display: grid;
+  grid-template-columns: 230px minmax(0, 650px);
+  gap: 8%;
+  padding: 20px var(--space) 90px;
+  justify-content: center;
+}
+.article-layout aside {
+  font-size: 10px;
+  color: var(--muted);
+  position: sticky;
+  top: 30px;
+  align-self: start;
+}
+.article-layout article h2 {
+  font-size: 30px;
+  margin: 35px 0 20px;
+}
+.article-layout article p {
+  font-size: 14px;
+  color: #575c51;
+  line-height: 1.95;
+}
+.article-layout article > img {
+  width: 100%;
+  aspect-ratio: 1.5;
+  background: var(--paper);
+  margin-bottom: 40px;
+}
+.journal-index {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px 25px;
+}
+.journal-index .journal-art {
+  aspect-ratio: 1.65;
+}
+.journal-index h3 {
+  font-size: 29px;
+}
+.material-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 35px;
+}
+.material-card {
+  background: var(--paper);
+  padding: 35px;
+}
+.material-sample {
+  height: 200px;
+  margin-bottom: 27px;
+  background: #343631;
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      #ffffff0a 2px,
+      #ffffff0a 3px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 2px,
+      #ffffff13 2px,
+      #ffffff13 3px
+    );
+}
+.material-sample.mineral {
+  background-color: #9f9f91;
+}
+.material-sample.petrol {
+  background-color: #33484a;
+}
+.material-sample.clay {
+  background-color: #a26550;
+}
+.material-card h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.material-card p {
+  font-size: 12px;
+  color: var(--muted);
+}
+.repair-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9%;
+}
+.repair-layout h2 {
+  font-size: 34px;
+  margin-bottom: 25px;
+}
+.repair-layout .form-panel {
+  background: var(--paper);
+  padding: 30px;
+}
+.repair-layout .form-panel .field {
+  margin-bottom: 18px;
+}
+.repair-layout select {
+  width: 100%;
+  padding: 13px;
+  background: var(--chalk);
+  border: 1px solid var(--line);
+  font-size: 12px;
+}
+.form-success {
+  padding: 40px;
+  background: var(--paper);
+}
+.form-success h2 {
+  margin-bottom: 20px;
+}
+.form-success p {
+  font-size: 13px;
+}
+.support-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 45px;
+}
+.support-grid h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}

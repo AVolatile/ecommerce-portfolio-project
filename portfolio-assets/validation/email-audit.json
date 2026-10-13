@@ -1,0 +1,130 @@
+[
+  {
+    "email": "brand-launch",
+    "width": 375,
+    "status": 200,
+    "viewport": 375,
+    "content": 375,
+    "broken": 0
+  },
+  {
+    "email": "product-launch",
+    "width": 375,
+    "status": 200,
+    "viewport": 375,
+    "content": 375,
+    "broken": 0
+  },
+  {
+    "email": "browse-follow-up",
+    "width": 375,
+    "status": 200,
+    "viewport": 375,
+    "content": 375,
+    "broken": 0
+  },
+  {
+    "email": "cart-reminder",
+    "width": 375,
+    "status": 200,
+    "viewport": 375,
+    "content": 375,
+    "broken": 0
+  },
+  {
+    "email": "order-confirmation",
+    "width": 375,
+    "status": 200,
+    "viewport": 375,
+    "content": 375,
+    "broken": 0
+  },
+  {
+    "email": "shipping-update",
+    "width": 375,
+    "status": 200,
+    "viewport": 375,
+    "content": 375,
+    "broken": 0
+  },
+  {
+    "email": "post-purchase-care",
+    "width": 375,
+    "status": 200,
+    "viewport": 375,
+    "content": 375,
+    "broken": 0
+  },
+  {
+    "email": "membership-invitation",
+    "width": 375,
+    "status": 200,
+    "viewport": 375,
+    "content": 375,
+    "broken": 0
+  },
+  {
+    "email": "brand-launch",
+    "width": 600,
+    "status": 200,
+    "viewport": 600,
+    "content": 600,
+    "broken": 0
+  },
+  {
+    "email": "product-launch",
+    "width": 600,
+    "status": 200,
+    "viewport": 600,
+    "content": 600,
+    "broken": 0
+  },
+  {
+    "email": "browse-follow-up",
+    "width": 600,
+    "status": 200,
+    "viewport": 600,
+    "content": 600,
+    "broken": 0
+  },
+  {
+    "email": "cart-reminder",
+    "width": 600,
+    "status": 200,
+    "viewport": 600,
+    "content": 600,
+    "broken": 0
+  },
+  {
+    "email": "order-confirmation",
+    "width": 600,
+    "status": 200,
+    "viewport": 600,
+    "content": 600,
+    "broken": 0
+  },
+  {
+    "email": "shipping-update",
+    "width": 600,
+    "status": 200,
+    "viewport": 600,
+    "content": 600,
+    "broken": 0
+  },
+  {
+    "email": "post-purchase-care",
+    "width": 600,
+    "status": 200,
+    "viewport": 600,
+    "content": 600,
+    "broken": 0
+  },
+  {
+    "email": "membership-invitation",
+    "width": 600,
+    "status": 200,
+    "viewport": 600,
+    "content": 600,
+    "broken": 0
+  }
+]
